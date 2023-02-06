@@ -7,5 +7,5 @@ int main()
     gets(str);
     strcpy(strc,str);
     printf("Entered string-str:%s",str);
-    printf("Copied string-strc:%s",strc);
+    printf("\nCopied string-strc:%s",strc);
 }
