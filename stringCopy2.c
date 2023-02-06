@@ -11,6 +11,7 @@ int main()
         strc[i]=str[i];
     }
    // strc[len]='\0';  //  strc[i]='\0' think about it
-    printf("Copied string is:%s",strc);
+    printf("Entered string-str:%s",str);
+    printf("\nCopied string-strc:%s",strc);
 }
 
