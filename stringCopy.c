@@ -6,5 +6,6 @@ int main()
     puts("Enter a string:");
     gets(str);
     strcpy(strc,str);
-    printf("Copied string is:%s",strc);
+    printf("Entered string-str:%s",str);
+    printf("Copied string-strc:%s",strc);
 }
