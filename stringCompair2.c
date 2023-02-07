@@ -7,7 +7,7 @@ int main()
     gets(str1);
     puts("Enter another string:");
     gets(str2);
-    for(i=0;str1[i]!='\0'||str2[i]!='\0';i++)
+    for(i=0;str1[i]!='\0'||str2[i]!='\0';i++) //for(i=0;i<strlen(str1)||i<strlen(str2);i++)
     {
         if(str1[i]!=str2[i])
         {
