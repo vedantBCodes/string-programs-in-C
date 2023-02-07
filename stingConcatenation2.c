@@ -15,6 +15,7 @@ int main()
         str1[len1]=str2[i];
         len1++;
     }
+    str1[len1]='\0';
     puts(str1);
 }
 
